@@ -1,0 +1,61 @@
+
+header{
+    position: relative;
+    width: 100vw;
+    height: 13vh;
+    border-bottom: 2px solid #F3F3F3;
+    /* background-color: red; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    position: relative;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    /* background-color: black; */
+}
+
+.logoImage_area{
+    position: relative;
+    width: 3vw;
+    height: 7vh;
+    margin: auto 0 auto 0.8vw;
+    /* background-color: green; */
+    display: flex;
+}
+
+.logoImage_area img{
+    width: 8vw;
+    height: 7vh;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.logoText_area{
+    width: 65vw;
+    height: 60vh;
+    /* background-color: pink; */
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+.logoText_area {
+    width: auto;
+    height: auto;
+    font-size: 1.4vw;
+    /* background-color: orange; */
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    color: #98A5C7;
+}
+
+           
+
+
