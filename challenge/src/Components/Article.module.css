@@ -1,10 +1,10 @@
 .articleArea{
     position: relative;
     width: 55vw;
-    height: 700vh;
-    /* background-color: grey; */
+    height: 760vh;
     margin: auto;
     margin-bottom: 10vh;
+
 }
 
 .category{
@@ -167,7 +167,6 @@
     align-items: center;
     font-size:2.1vh;
     color: #4161B4;
-    /* background-color: green; */
 }
 
 .ImgArea_2{
@@ -226,7 +225,6 @@
     height: 27vh;
     display: flex;
     margin: 2.5vh auto 0 auto;
-    /* background-color: red; */
 }
 
 .bathStepsContent2{
@@ -235,7 +233,6 @@
     height: 17vh;
     display: flex;
     margin: 2.5vh auto 1.3vh auto;
-    /* background-color: red; */
 }
 
 .bathStepsContent3{
@@ -244,7 +241,6 @@
     height: 14vh;
     display: flex;
     margin: 2.5vh auto 0 auto;
-    /* background-color: red; */
 }
 
 .bathStepsContent4{
@@ -253,14 +249,12 @@
     height: 14vh;
     display: flex;
     margin: 2.5vh auto 0 auto;
-    /* background-color: red; */
 }
 
 .textBathStepsContentArea{
     width: 49vw;
     height: 26vh;
     margin: auto;
-    /* background-color: green; */
     text-align: left;
     font-family: 'Poppins';
     font-size: 2.2vh;
@@ -271,7 +265,6 @@
     height: 22vh;
     margin: auto;
     align-items: center;
-    /* background-color: green; */
     text-align: left;
     font-family: 'Poppins';
     font-size: 2.2vh;
@@ -281,7 +274,6 @@
     width: 49vw;
     height: 18vh;
     margin: auto;
-    /* background-color: green; */
     text-align: left;
     font-family: 'Poppins';
     font-size: 2.2vh;
@@ -291,7 +283,6 @@
     width: 49vw;
     height: 17vh;
     margin: auto;
-    /* background-color: green; */
     text-align: left;
     font-family: 'Poppins';
     font-size: 2.2vh;
@@ -318,7 +309,6 @@
     display: flex;
     align-items: center;
     margin: 0 auto 0 auto;
-    /* background-color: pink; */
 }
 
 .revenue2, .revenue3{
@@ -328,7 +318,6 @@
     display: flex;
     align-items: center;
     margin: -1vh auto 0 auto;
-    /* background-color: pink; */
 }
 
 .revenue4{
@@ -338,7 +327,6 @@
     display: flex;
     align-items: center;
     margin: 3.5vh auto 0 auto;
-    /* background-color: pink; */
 }
 
 .revenueArea1{
@@ -346,7 +334,6 @@
     width: 25vw;
     height: 58vh;
     display: block;
-    /* background-color: gainsboro; */
 }
 
 .revenueArea2, .revenueArea3{
@@ -354,7 +341,6 @@
     width: 25vw;
     height: auto;
     display: block;
-    /* background-color: gainsboro; */
 }
 
 .revenueArea4{
@@ -362,12 +348,10 @@
     width: 25vw;
     height: auto;
     display: block;
-    /* background-color: gainsboro; */
 }
 
 .ingredients1{
     width: 25vw;
-    /* background-color: grey; */
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
@@ -377,7 +361,6 @@
 .ingredients4{
     width: 25vw;
     height: 15vh;
-    /* background-color: orange; */
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
@@ -387,7 +370,6 @@
 .preparation1{
     width: 25vw;
     height: auto;
-    /* background-color: grey; */
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
@@ -397,7 +379,6 @@
 .ingredients2, .preparation2, .ingredients3, .preparation3, .preparation4{
     width: 25vw;
     height: auto;
-    /* background-color: orange; */
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
@@ -407,14 +388,12 @@
 .ingredientsTitle1, .preparationTitle1, .ingredientsTitle2, .preparationTitle2, .ingredientsTitle3, .preparationTitle3, .ingredientsTitle4, .preparationTitle4{
     color: #4161B4;
     font-size: 1.9vh;
-    /* background-color: red; */
     font-weight: bold;
     padding-bottom: 2vh;
 }
 
 .ingredientsStepArea1{
     height: 11vh;
-    /* background-color: purple; */
 }
 
 .ingredientsStepArea2, .ingredientsStepArea3{
@@ -423,7 +402,6 @@
 
 .ingredientsStepArea4{
     height: 10vh;
-    /* background-color: red; */
 }
 
 .ingredients2, .ingredients3{
@@ -439,13 +417,11 @@
 .preparationStepArea1, .preparationStepArea2, .preparationStepArea3{
     width: 25vw;
     height: 13vh;
-    /* background-color: salmon; */
 }
 
 .preparationStepArea4{
     width: 25vw;
     height: 16vh;
-    /* background-color: salmon; */
 }
 
 .preparationStepArea1 li, .preparationStepArea2 li, .preparationStepArea3 li, .preparationStepArea4 li{
@@ -458,7 +434,6 @@
     height: auto;
     align-items: center;
     font-family: 'Poppins';
-    /* background-color: #4161B4; */
 }
 
 .modeOfUseStepsArea2{
@@ -467,7 +442,6 @@
     display: flex;
     align-items: center;
     font-family: 'Poppins';
-    /* background-color: #4161B4; */
 }
 
 .modeOfUseStepsArea3{
@@ -475,7 +449,6 @@
     height: 8.7vh;
     align-items: center;
     font-family: 'Poppins';
-    /* background-color: #4161B4; */
 }
 
 .modeOfUseStepsArea4{
@@ -483,7 +456,6 @@
     height: 8.7vh;
     align-items: center;
     font-family: 'Poppins';
-    /* background-color: #4161B4; */
 }
 
 .modeOfUseTitle1, .modeOfUseTitle3, .modeOfUseStepsArea4{
@@ -493,7 +465,6 @@
 .modeOfUseTitle1, .modeOfUseTitle2, .modeOfUseTitle3, .modeOfUseTitle4{
     color: #4161B4;
     font-size: 1.9vh;
-    /* font-weight: bold; */
 }
 
 .modeOfUse1{
@@ -502,7 +473,7 @@
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
-    /* background-color: green; */
+
 }
 
 .modeOfUse2, .modeOfUse3{
@@ -511,7 +482,6 @@
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
-    /* background-color: green; */
 }
 
 .modeOfUse4{
@@ -520,7 +490,6 @@
     text-align: left;
     font-weight: normal;
     font-family: 'Poppins';
-    /* background-color: green; */
 }
 
 .modeOfUse3 li, .modeOfUse4 li{
@@ -531,7 +500,6 @@
 .bathStepsTitle2, .bathStepsTitle3, .bathStepsTitle4{
     width: 49vw;
     height: 5vh;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-items: center;
@@ -548,27 +516,95 @@
     align-items: center;
     font-size:2.1vh;
     color: #4161B4;
-    /* background-color: orange; */
 }
 
-
-
-
-
-
-/* .dataAuthorBio{
+.bibliographyArea{
     position: relative;
-    width: 10vw;
-    height: 20vh;
-    margin: 3vh auto 0 2.5vw;
-    display: block;
-    justify-content: space-around; 
-}
-
-.data, .author, .biography{
-    position: relative;
-    width: 9vw;
+    width: 49vw;
     height: 5vh;
-    background-color: black;
-    margin: 1vh auto 0 auto;
-} */
+    margin: 2vh auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.btnArea{
+    width: 8vw;
+    height: 4.5vh;
+    font-family: 'Poppins'; 
+}
+
+.btnArea span{
+    color: #4161B4;
+    font-size: 2.5vh;
+}
+
+.openBtn{
+    width: 8vw;
+    height: 4.5vh;
+    font-size: 2vh;
+    margin: auto;
+    border-radius: 0.5vh;
+    border: 0.1vh solid black;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.openBtn:hover{
+    opacity: 0.5;
+    transition: 0.4s all;
+    background-color: #F3F3F3;
+}
+
+.modalContent{
+    position: absolute;
+    width: 45vw;
+    height: 67vh;
+    top: 0vh;
+    background-color:#F3F3F3;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #000;
+    padding-bottom: 3vh;
+}
+
+.bibli1, .bibli2, .bibli3, .bibli4, .bibli5{
+    position: relative;
+    width: 45vw;
+    height: 10vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1vh dashed #4161B4;
+}
+
+.bibli6{
+    position: relative;
+    width: 45vw;
+    height: 10vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.bibli1 li, .bibli2 li, .bibli3 li, .bibli4 li, .bibli5 li, .bibli6 li{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 1.8vh;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    font-family: 'Poppins';
+    font-size: 1.5vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.closeBtn:hover{
+    opacity: 0.8;
+}
+
+
+
+

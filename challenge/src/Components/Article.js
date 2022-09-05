@@ -1,7 +1,15 @@
 import styles from "./Article.module.css"
 import homeImg from "./Images/HomeIcon.png"
+import React, {useState} from "react";
 
 const Article = () => {
+
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal)
+    }
+
     return(
         <>
         <div className={styles.articleArea}>
@@ -224,7 +232,6 @@ const Article = () => {
                 </div>
             </div>
 
-
             <div className={styles.bathStepsTitle4}>
                 <div className={styles.TextBathStepsTitleArea4}>
                     <h3>4. Banho com gengibre e água oxigenada</h3>
@@ -276,13 +283,55 @@ const Article = () => {
                 </div>
             </div>
 
+            <div className={styles.bibliographyArea}>
+                <div className={styles.btnArea}>
+                    <button 
+                    className={styles.openBtn}
+                    onClick={toggleModal}>
+                        <span>+</span> Bibliografia
+                    </button>
+
+                    {modal && (
+                        <div className={styles.modalContent}>
+
+                        <div className={styles.bibli1}>
+                            <li>Ahmad, Z. (2010). The uses and properties of almond oil. Complementary Therapies in Clinical Practice. https://doi.org/10.1016/j.ctcp.2009.06.015</li>
+                        </div>
+                        
+                         <div className={styles.bibli2}>
+                            <li>Lin TK, Zhong L, Santiago JL. Anti-Inflammatory and Skin Barrier Repair Effects of Topical Application of Some Plant Oils. Int J Mol Sci. 2017;19(1):70. Published 2017 Dec 27. doi:10.3390/ijms19010070</li>
+                        </div>
+
+                        <div className={styles.bibli3}>
+                            <li>Mori HM, Kawanami H, Kawahata H, Aoki M. Wound healing potential of lavender oil by acceleration of granulation and wound contraction through induction of TGF-β in a rat model. BMC Complement Altern Med. 2016;16:144. Published 2016 May 26. doi:10.1186/s12906-016-1128-7</li>
+                        </div>
+
+                        <div className={styles.bibli4}>
+                            <li>Williams LB, Haydel SE. Evaluation of the medicinal use of clay minerals as antibacterial agents. Int Geol Rev. 2010;52(7/8):745–770. doi:10.1080/00206811003679737</li>
+                        </div>
+
+                        <div className={styles.bibli5}>
+                            <li>Moosavi M. Bentonite Clay as a Natural Remedy: A Brief Review. Iran J Public Health. 2017;46(9):1176–1183.</li>
+                        </div>
+
+                        <div className={styles.bibli6}>
+                            <li>Bode AM, Dong Z. The Amazing and Mighty Ginger. In: Benzie IFF, Wachtel-Galor S, editors. Herbal Medicine: Biomolecular and Clinical Aspects. 2nd edition. Boca Raton (FL): CRC Press/Taylor & Francis; 2011. Chapter 7. Available from: https://www.ncbi.nlm.nih.gov/books/NBK92775/</li>
+                        </div>
+
+                        <button
+                        onClick={toggleModal}
+                         className={styles.closeBtn}>X</button>
+
+                        
+                    </div>
+                    )}
+
+                    
+                </div>    
+            </div>
+
             
 
-            {/* <div className={styles.dataAuthorBio}>
-                <div className={styles.data}></div>
-                <div className={styles.author}></div>
-                <div className={styles.biography}></div>
-            </div> */}
 
         </div>
         </>
