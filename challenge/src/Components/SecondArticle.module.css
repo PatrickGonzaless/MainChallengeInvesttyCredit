@@ -1,0 +1,570 @@
+.articleArea{
+    position: relative;
+    width: 55vw;
+    height: 815vh;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.category{
+    position: relative;
+    width: 14vw;
+    height: 3vh;
+    left: 3vw;
+    top: 1vh;
+    display: flex;
+}
+
+.textCategoryArea{
+    width: 28vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto 0 auto 0;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textCategoryArea span{
+   font-weight: bold;
+}
+
+.homeImg{
+    position: relative;
+    width: 1.5vw;
+    height: 3vh;
+    display: flex;
+}
+
+.title{
+    position: relative;
+    width: 40vw;
+    height: 13vh;
+    margin: 4vh 0 0 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textTitleArea{
+    width: 40vw;
+    height: 11vh;
+    font-family: 'Poppins';
+    font-size: 2vh;
+    text-align: left;
+    color: #4161B4;
+}
+
+.contents{
+    position: relative;
+    width: 50vw;
+    height: 10vh;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+.textContentsArea{
+    width: 49vw;
+    height: 13vh;
+    font-family: 'Poppins';
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.textContentsArea p{
+    text-align: left;
+    font-size: 2.2vh;
+    font-weight: 100;
+}
+
+.ImgArea{
+    position: relative;
+    width: 49vw;
+    height: 70vh;
+    margin: 3vh auto 0 auto;
+    border-radius: 1px solid #F3F3F3;
+    border-radius: 2vw ;
+    background-size:cover;
+    background-image: url("https://mejorconsalud.as.com/wp-content/uploads/2022/01/arana-muerde-piel-500x333.jpg");
+}
+
+.mainContent{
+    position: relative;
+    width: 49vw;
+    height: 32vh;
+    margin: 3vh auto 0 auto;
+    display: flex;
+}
+
+.textMainContentArea{
+    width: 49vw;
+    height: 23vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+}
+
+.mainContentP_1, .mainContentP_2{
+    margin-bottom: 1vh;
+}
+
+.Caption{
+    position: relative;
+    width: 49vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: blue;
+}
+
+.textCaptionArea{
+    width: 49vw;
+    height: 7vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    color: #4161B4;
+    /* background-color: red; */
+}
+
+.contentCaptionArea{
+    position: relative;
+    width: 49vw;
+    height: 21vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 1vh auto 0 auto;
+    font-family: 'Poppins';
+}
+
+.textCaptionContentArea{
+    width: 49vw;
+    height: 21vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.textCaptionContentAreaP{
+    margin-bottom: 1vh;
+}
+
+.BlackWidowArea, .JumpingSpiderArea{
+    position: relative;
+    margin: 2vh auto 0 auto;
+    width: 49vw;
+    height: 27vh;
+}
+
+.BrownRecluseArea{
+    position: relative;
+    margin: 1vh auto 0 auto;
+    width: 49vw;
+    height: 19.5vh;
+}
+
+.TarantulasArea{
+    position: relative;
+    margin: 1vh auto 0 auto;
+    width: 49vw;
+    height: 41vh;
+}
+
+.BrazilianSpiderArea{
+    position: relative;
+    margin: 1vh auto 0 auto;
+    width: 49vw;
+    height: 19vh;
+}
+
+.HoboSpiderArea{
+    position: relative;
+    margin: 1vh auto 0 auto;
+    width: 49vw;
+    height: 26vh;
+}
+
+.CamelSpiderArea{
+    position: relative;
+    margin: 1vh auto 0 auto;
+    width: 49vw;
+    height: 30vh;
+}
+
+.WolfSpiderArea{
+    position: relative;
+    margin: 4vh auto 0 auto;
+    width: 49vw;
+    height: 30vh;
+}
+
+.BlackWidowTitle, .BrownRecluseTitle, .TarantulasTitle, .BrazilianSpiderTitle, .HoboSpiderTitle, .CamelSpiderTitle, .WolfSpiderTitle, .JumpingSpiderTitle{
+    width: 49vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-family:'Poppins';
+    color: #4161B4;
+}
+
+.BlackWidowContents, .BrownRecluseContents, .TarantulasContents, .BrazilianSpiderContents, .HoboSpiderContents, .CamelSpiderContents, .WolfSpiderContents, .JumpingSpiderContents{
+    width: 49vw;
+    height: 21vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.BlackWidowContentsP, .TarantulasContentsP, .TarantulasContentsP2, .CamelSpiderContentsP, .WolfSpiderContentsP, .JumpingSpiderContentsP{
+    margin-bottom: 1vh;
+}
+
+.ImgArea_2{
+    position: relative;
+    width: 49vw;
+    height: 70vh;
+    margin: 1.5vh auto 0 auto;
+    border-radius: 1px solid #F3F3F3;
+    border-radius: 2vw ;
+    background-size:cover;
+    z-index: 12;
+    background-image: url("https://mejorconsalud.as.com/wp-content/uploads/2021/07/arana-bano.jpg");
+}
+
+.subtitles, .subtitles2{
+    position: relative;
+    width: 49vw;
+    height: 11vh;
+    margin: -3.5vh auto 0 auto;
+    border-bottom-right-radius: 2.5vh;
+    border-bottom-left-radius: 2.5vh;
+    background-color: #F3F3F3;
+}
+
+.textSubtitlesArea, .textSubtitlesArea2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 48.5vw;
+    height: 8vh;
+    bottom: 1px;
+    left: 1vw;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.75vh;
+    text-align: left;
+    opacity: 0.4;
+}
+
+.Symptoms, .FirstAid{
+    position: relative;
+    width: 49vw;
+    height: 10vh;
+    display: flex;
+    margin: 0.3vh auto 0 auto;
+}
+
+.FirstAid{
+    margin-top: 1vh;
+}
+
+.titleSymptomsArea, .titleFirstAidArea{
+    width: 49vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+    color: #4161B4;
+}
+
+.contentSymptomsArea{
+    position: relative;
+    width: 49vw;
+    height: 23vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    font-family: 'Poppins';
+}
+
+.contentFirstAidArea{
+    position: relative;
+    width: 49vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    font-family: 'Poppins';
+}
+
+.textSymptomsContentArea{
+    width: 49vw;
+    height: 22vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.textSymptomsContenteAreaP{
+    margin-bottom: 1vh;
+}
+
+.SymptomsListArea{
+    position: relative;
+    width: 49vw;
+    height: 53vh;
+    margin: auto ;
+}
+
+.SymptomsList{
+    width: 30vw;
+    height: 53vh;
+}
+
+.SymptomsList li{
+    text-align: left;
+    padding-bottom: 1vh;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.9vh;
+}
+
+.textFirstAidContentArea{
+    position: relative;
+    width: 49vw;
+    height: 8vh;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.FirstAidListArea{
+    position: relative;
+    width: 49vw;
+    height: 16vh;
+    margin: auto;
+}
+
+.FirstAidList{
+    width: 35vw;
+    height: 16vh;
+    text-align: left;
+}
+
+.FirstAidList li{
+    padding-bottom: 1vh;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.9vh;
+}
+
+.ImgArea_3{
+    position: relative;
+    width: 49vw;
+    height: 70vh;
+    margin: 1.5vh auto 0 auto;
+    border-radius: 1px solid #F3F3F3;
+    border-radius: 2vw ;
+    background-size:cover;
+    z-index: 12;
+    background-image: url("https://mejorconsalud.as.com/wp-content/uploads/2017/03/cubos-hielo.jpg");
+}
+
+.RisksAndComplications{
+    position: relative;
+    width: 49vw;
+    height: 8vh;
+    margin: 3vh auto 0 auto;
+}
+
+.titleRisksAndComplicationsArea{
+    width: 49vw;
+    height: 8vh;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    color: #4161B4;
+}
+
+.contentRisksAndComplicationsArea{
+    width: 49vw;
+    height: 55vh;
+    margin: 1vh auto 0 auto;
+}
+
+.textRisksAndComplicationsContentArea{
+    width: 49vw;
+    height: 55vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.textRisksAndComplicationsContentAreaP, 
+.textRisksAndComplicationsContentAreaP2,
+.textRisksAndComplicationsContentAreaP3,
+.textRisksAndComplicationsContentAreaP4{
+    padding-bottom: 1.5vh;
+}
+
+.WhenToGo{
+    position: relative;
+    margin: 4vh auto 0 auto;
+    width: 49vw;
+    height: 49vh;
+}
+
+.WhenToGoTitle{
+    width: 49vw;
+    height: 8vh;
+    font-size: 2.2vh;
+    display: flex;
+    align-items: center;
+    font-family:'Poppins';
+    color: #4161B4;
+}
+
+.WhenToGoContents{
+    width: 49vw;
+    height: 11vh;
+    margin: auto;
+    text-align: left;
+    font-size: 2.2vh;
+    font-family: 'Poppins';
+}
+
+.reasonsListArea{
+    width: 49vw;
+    height: 15vh;
+}
+
+.reasonsList{
+    width: 30vw;
+    height: 15vh;
+    margin-top: 2vh;
+    text-align: left;
+}
+
+.reasonsList li{
+    padding-bottom: 1vh;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.9vh;
+}
+
+.conclusionTextArea{
+    width: 49vw;
+    height: 15vh;
+    font-family: 'Poppins';
+    text-align: left;
+    margin: 2vh auto 0 auto;
+    font-size: 2.2vh;
+}
+
+.bibliographyArea{
+    position: relative;
+    width: 49vw;
+    height: 5vh;
+    margin: 2vh auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.btnArea{
+    width: 8vw;
+    height: 4.5vh;
+    font-family: 'Poppins'; 
+}
+
+.btnArea span{
+    color: #4161B4;
+    font-size: 2.5vh;
+}
+
+.openBtn{
+    width: 8vw;
+    height: 4.5vh;
+    font-size: 2vh;
+    margin: auto;
+    border-radius: 0.5vh;
+    border: 0.1vh solid black;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.openBtn:hover{
+    opacity: 0.5;
+    transition: 0.4s all;
+    background-color: #F3F3F3;
+}
+
+.modalContent{
+    position: absolute;
+    width: 45vw;
+    height: 67vh;
+    top: 0vh;
+    background-color:#F3F3F3;
+    border-radius: 0.5vh;
+    border: 0.1vh solid #000;
+    padding-bottom: 3vh;
+}
+
+.bibli1, .bibli2, .bibli3, .bibli4, .bibli5{
+    position: relative;
+    width: 45vw;
+    height: 10vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1vh dashed #4161B4;
+}
+
+.bibli6{
+    position: relative;
+    width: 45vw;
+    height: 10vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+.bibli1 li, .bibli2 li, .bibli3 li, .bibli4 li, .bibli5 li, .bibli6 li{
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 1.8vh;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    font-family: 'Poppins';
+    font-size: 1.5vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.closeBtn:hover{
+    opacity: 0.8;
+}
+
+
+
