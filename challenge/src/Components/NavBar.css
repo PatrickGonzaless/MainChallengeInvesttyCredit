@@ -32,7 +32,7 @@ nav {
 
 .menu {
     width: 40vw;
-    height: 90vh;
+    height: 50vh;
     background-color:#F3F3F3;
     position: absolute;
     top: 13vh;
@@ -69,6 +69,58 @@ nav {
   font-family: 'Poppins';
   padding-left: 1vw;
 }
+
+.LinksArea{
+    position: relative;
+    width: 33vw;
+    height: 12vh;
+    margin: auto;
+}
+
+.LinksArea2{
+    position: relative;
+    width: 33vw;
+    height: 12vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.LinksAreaTitle, .LinksAreaTitle2{
+    position: relative;
+    width: 33vw;
+    height: 8vh;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #546181;
+}
+
+.LinksAreaTitle hr, .LinksAreaTitle2 hr{
+    width: 20vw;
+    height: 0.2vh;
+    margin-left: 2vw;
+    background-color: #777777;
+}
+
+.LinksAreaText, .LinksAreaText2{
+    position: relative;
+    width: 33vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.LinksAreaText p, .LinksAreaText2 p{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.2vh;
+}
+
+.Link, .Link2{
+    text-decoration: none;
+}
+
 
 /* ------------- sliding menu ------------------ */
 .hidden {

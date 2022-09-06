@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './NavBar.css'
 import search from "./Images/lupa.png"
+import { Link } from "react-router-dom";
 
     const NavBar = () => {
         const [burger_class, setBurguerClass] = useState("burger-bar unclicked")
@@ -38,6 +39,28 @@ import search from "./Images/lupa.png"
                             <input type="text" name="inputMenu" placeholder="Realize sua pesquisa:"/>
                         </div>
                     </div>
+                    <div className="LinksArea">
+                        <div className="LinksAreaTitle">
+                            <h1>Artigo1</h1>
+                            <hr/>
+                        </div>
+                        <div className="LinksAreaText">
+                            <Link className="Link" to='/artigo1'>
+                                <p>Ir até o Primeiro Artigo</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="LinksArea2">
+                        <div className="LinksAreaTitle2">
+                            <h1>Artigo2</h1>
+                            <hr/>
+                        </div>
+                        <div className="LinksAreaText2">
+                            <Link className="Link2" to='/artigo2'>
+                                <p>Ir até o Segundo Artigo</p>
+                            </Link>
+                        </div>
+                    </div>    
                 </div>
 
                 <div className="search">
@@ -45,6 +68,7 @@ import search from "./Images/lupa.png"
                         <img classname="search_img" src={search} alt="Pesquisar" onClick={updateMenu}/>
                     </div>
                 </div>
+
             </>
         )
     }

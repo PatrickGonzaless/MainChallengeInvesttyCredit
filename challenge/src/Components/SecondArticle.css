@@ -1,0 +1,8 @@
+.articleArea{
+    position: relative;
+    width: 55vw;
+    height: 1000vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    background-color: red;
+}
