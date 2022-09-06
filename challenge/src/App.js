@@ -8,25 +8,25 @@ import PaginaDois from './Components/PaginaDois';
 function App() {
   return (
     <div className="App">
-      <MyHeader/>
-      <NavBar/>
       
       <Router>
+      <MyHeader/>
+      <NavBar/>
       
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/pagdois">Pagdois</Link>
+            <Link to="/pagdois" >Pagdois</Link>
           </li>
         </ul>
         <Switch>
         <Route exact path="/">
           <Article/>
         </Route>
-        <Route onclick={<PaginaDois/>} path="/pagdois">
-          <PaginaDois/>
+        <Route path="pagdois">
+        <PaginaDois/>
         </Route>
       </Switch>
       
