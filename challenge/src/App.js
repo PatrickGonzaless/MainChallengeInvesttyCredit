@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import Article from './Components/Article';
 import MyHeader from './Components/MyHeader';
 import NavBar from './Components/NavBar';
@@ -7,32 +7,21 @@ import PaginaDois from './Components/PaginaDois';
 
 function App() {
   return (
-    <div className="App">
-      
-      <Router>
+    <Router>
+    <div className="App"> 
       <MyHeader/>
       <NavBar/>
-      
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/pagdois" >Pagdois</Link>
-          </li>
-        </ul>
+
+      <Link to='/'>Home</Link>
+      <Link to='/paginadois'>Paginadois</Link>
+
         <Switch>
-        <Route exact path="/">
-          <Article/>
-        </Route>
-        <Route path="pagdois">
-        <PaginaDois/>
-        </Route>
-      </Switch>
-      
-      </Router>
+          <Route path='/' exact component={Article}></Route>
+          <Route path='/paginadois' component={PaginaDois}></Route>
+        </Switch>
 
     </div>
+    </Router>
   );
 }
 
