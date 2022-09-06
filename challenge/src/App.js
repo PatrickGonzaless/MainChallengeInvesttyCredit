@@ -9,6 +9,7 @@ import SecondArticle from './Components/SecondArticle';
 function App() {
   return (
     <Router>
+      
     <div className="App"> 
       <MyHeader/>
       <NavBar/>
@@ -16,7 +17,12 @@ function App() {
       <Switch>
           <Route path='/artigo1' exact component={Article}></Route>
           <Route path='/artigo2' component={SecondArticle}></Route>
-      </Switch>   
+      </Switch>
+      <footer>
+        <div className='FooterTitle'>
+          <h1>ProjetoInvesttyCredit</h1>
+        </div>
+      </footer>
     </div>
     </Router>
   );
