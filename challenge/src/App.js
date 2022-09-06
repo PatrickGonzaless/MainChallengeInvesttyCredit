@@ -5,6 +5,7 @@ import Article from './Components/Article';
 import MyHeader from './Components/MyHeader';
 import NavBar from './Components/NavBar';
 import SecondArticle from './Components/SecondArticle';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,11 +19,7 @@ function App() {
           <Route path='/artigo1' exact component={Article}></Route>
           <Route path='/artigo2' component={SecondArticle}></Route>
       </Switch>
-      <footer>
-        <div className='FooterTitle'>
-          <h1>ProjetoInvesttyCredit</h1>
-        </div>
-      </footer>
+      <Footer/>
     </div>
     </Router>
   );

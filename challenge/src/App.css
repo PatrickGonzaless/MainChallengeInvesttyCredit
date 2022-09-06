@@ -9,22 +9,3 @@
   overflow-x: hidden;
 }
 
-footer{
-  position: relative;
-  width: 100vw;
-  height: 50vh;
-  background-color: #3853aa;
-  z-index: -10;
-}
-
-.FooterTitle{
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 20vw;
-  height: 10vh;
-  top: 3vh;
-  left: 1vw;
-  font-family: 'Poppins';
-  color: #FFF;
-}
