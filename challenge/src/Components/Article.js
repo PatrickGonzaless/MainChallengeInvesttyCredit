@@ -59,7 +59,7 @@ const Article = () => {
             </div>
 
             <div className={styles.contentCaptionArea}>
-                <div className={styles.textSubTitleContentArea}>
+                <div className={styles.textCaptionContentArea}>
                     <p>Aproveitando as propriedades de uma série de ingredientes de origem natural, podemos preparar banhos para suavizar e embelezar os pés . Sua aplicação é ideal para aliviá-los da dor de um dia muito pesado , ou para manter a pele livre de células mortas.</p>
                 </div>
             </div>

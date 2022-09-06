@@ -1,7 +1,7 @@
 .articleArea{
     position: relative;
     width: 55vw;
-    height: 760vh;
+    height: 710vh;
     margin: auto;
     margin-bottom: 10vh;
 }
@@ -138,7 +138,7 @@
     font-family: 'Poppins';
 }
 
-.textSubTitleContentArea{
+.textCaptionContentArea{
     width: 49vw;
     height: 14.5vh;
     margin: auto;
